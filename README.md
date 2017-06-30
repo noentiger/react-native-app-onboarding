@@ -1,5 +1,9 @@
 # `<Onboarding />`
 
+[![npm version](https://badge.fury.io/js/react-native-app-onboarding.svg)](https://badge.fury.io/js/react-native-app-onboarding)
+[![Build Status](https://travis-ci.org/noentiger/react-native-app-onboarding.svg)](https://travis-ci.org/noentiger/react-native-app-onboarding)
+[![NPM Status](http://img.shields.io/npm/dm/react-native-app-onboarding.svg?style=flat)](https://www.npmjs.org/package/react-native-app-onboarding)
+
 Onboarding experience made a breeze.
 
 Originally inspired by [React Native Simple Onboarding](https://github.com/goshakkk/react-native-simple-onboarding).
