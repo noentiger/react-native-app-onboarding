@@ -2,7 +2,7 @@
 
 Onboarding experience made a breeze.
 
-Originally inspired by [AndroidOnboarder](https://github.com/chyrta/AndroidOnboarder).
+Originally inspired by [React Native Simple Onboarding](https://github.com/goshakkk/react-native-simple-onboarding).
 
 ## Quick demo
 
@@ -14,6 +14,7 @@ Originally inspired by [AndroidOnboarder](https://github.com/chyrta/AndroidOnboa
 <Onboarding
   pages={[
     { backgroundColor: '#fff', image: <Square />, title: 'Simple Messenger UI', subtitle: 'Implemented in React Native' },
+    { backgroundImage: 'http://example.com/image.png', title: 'Simple Messenger UI', subtitle: 'Implemented in React Native' },
     { backgroundColor: "#fe6e58", image: <Circle />, title: 'Welcome', subtitle: 'To Earth' },
     { backgroundColor: "#999", image: <Square />, title: 'Also', subtitle: 'Mars is nice' },
   ]}
@@ -24,11 +25,11 @@ Originally inspired by [AndroidOnboarder](https://github.com/chyrta/AndroidOnboa
 ## Install
 
 ```
-npm install --save react-native-simple-onboarding
+npm install --save react-native-app-onboarding
 ```
 
 ```javascript
-import Onboarding from 'react-native-simple-onboarding';
+import Onboarding from 'react-native-app-onboarding';
 ```
 
 ## Usage
@@ -38,10 +39,11 @@ import Onboarding from 'react-native-simple-onboarding';
 Props:
 
 * `pages` (required): an array of onboarding pages. A page is an object of shape:
-  * `backgroundColor` (required): a background color for the page
-  * `image` (required): a component instance displayed at the top of the page
-  * `title` (required): a string title
-  * `subtitle` (required): a string subtitle
+  * `backgroundColor`: a background color for the page
+  * `backgroundImage`: a background image for the page
+  * `image`: a component instance displayed at the top of the page
+  * `title`: a string title
+  * `subtitle`: a string subtitle
 * `onEnd` (optional): a callback that is fired after the onboarding is complete
 * `bottomOverlay` (optional): a bool flag indicating whether the bottom bar overlay should be shown. Defaults to `true`.
 * `showSkip` (optional): a bool flag indicating whether the Skip button should be show. Defaults to `true`.
